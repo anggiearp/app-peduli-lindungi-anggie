@@ -36,7 +36,7 @@ export default HomeScreen = ({ navigation }) => {
             <View style={styles.container}>
                 <Image source={Icon_User} style={styles.imgSize} />
                 <Text style={styles.hi}>Hi, </Text>
-                <Text style={styles.naufal}>Anggie Ardhia Puspita</Text>
+                <Text style={styles.anggie}>Anggie Ardhia Puspita</Text>
                 <Image source={Lonceng} style={styles.imgSize2} />
             </View>
             <View>
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
         left: 15,
         fontWeight: "bold",
     },
-    naufal: {
+    anggie: {
         textAlign: "left",
         fontSize: 15,
         marginTop: 4,
