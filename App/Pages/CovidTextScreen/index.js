@@ -14,7 +14,7 @@ export default CovidTextScreen = ({}) => {
         
         <View style={styles.content}>
             <Text style={styles.text}>You do not have a history of COVID-19 test</Text>
-            <Text style={styles.text}>results. Make sure you do a COVID-19 tes at a laboratory</Text>
+            <Text style={styles.text}>results. Make sure you do a COVID-19 test at a laboratory</Text>
             <Text style={styles.text}>affiliated with the Ministry of Health: 
                 <Text style={styles.BodyText}> PCR test lab</Text> or </Text>
             <Text style={styles.BodyText}> Antigen test lab</Text>
