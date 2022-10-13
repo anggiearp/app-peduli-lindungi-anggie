@@ -114,7 +114,7 @@ export default HomeScreen = ({ navigation }) => {
             <View style={styles.row1}>
                 <View style={styles.column}>
                     <Image source={Icon_StatisticCovid} style={styles.gambar2} />
-                    <Text style={styles.tulisan}>Covid-19             Statistic</Text>
+                    <Text style={styles.tulisan}>Covid-19              Statistic</Text>
                 </View>
                 <View style={styles.column}>
                     <Image source={Icon_FindHospital} style={styles.gambar2} />
