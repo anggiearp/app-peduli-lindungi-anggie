@@ -36,7 +36,7 @@ export default HomeScreen = ({ navigation }) => {
             <View style={styles.container}>
                 <Image source={Icon_User} style={styles.imgSize} />
                 <Text style={styles.hi}>Hi, </Text>
-                <Text style={styles.naufal}>Naufal Sidik</Text>
+                <Text style={styles.naufal}>Anggie Ardhia Puspita</Text>
                 <Image source={Lonceng} style={styles.imgSize2} />
             </View>
             <View>
@@ -44,8 +44,8 @@ export default HomeScreen = ({ navigation }) => {
             </View>
             <View style={styles.kotakBiru}>
                 <View>
-                    <Text style={styles.text1}>Entering A Public Space?</Text>
-                    <Text style={styles.text2}>Stay Alert To Stay Safe</Text>
+                    <Text style={styles.text1}>Entering a public space?</Text>
+                    <Text style={styles.text2}>Stay alert to stay safe</Text>
                 </View>
                 <View>
                     <Image source={Icon_Hand} style={styles.logo1} />
@@ -54,12 +54,12 @@ export default HomeScreen = ({ navigation }) => {
             <View style={styles.kotakPutih}>
                 <View style={styles.row}>
                     <Image source={Panah} style={styles.panah} />
-                    <Text style={styles.fonthitam}>Check-In Prefence</Text>
+                    <Text style={styles.fonthitam}>Check-In Preference</Text>
                 </View>
                 <View style={styles.kotakcheck}>
                     <View style={styles.row}>
                         <Image source={QrCode} style={styles.scaner} />
-                        <Text style={styles.fontbiru}>Check-In </Text>
+                        <Text style={styles.fontbiru}>Check-in </Text>
                     </View>
                 </View>
             </View>
@@ -91,7 +91,7 @@ export default HomeScreen = ({ navigation }) => {
                 <View style={styles.column}>
                     <TouchableOpacity
                         onPress={() =>
-                            Alert.alert("Peringatan!!!", "Halaman ini Belum Dibuat", [
+                            Alert.alert("Mohon maaf", "Halaman ini sedang dalam proses pengembangan", [
                                 {
                                     text: "ok",
                                     onPress: () => console.log("ok ditekan"),
