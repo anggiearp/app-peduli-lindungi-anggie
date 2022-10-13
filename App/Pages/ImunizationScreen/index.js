@@ -22,7 +22,7 @@ export default function ImunizationScreen() {
                 <View style={{flexDirection: 'row'}}>
                     <Image source={Icon_CheckIn} style={styles.gambar2}/>
                         <View style={{flexDirection: 'column'}}>
-                            <Text style={styles.teks2}>Check-In Verification</Text>
+                            <Text style={styles.teks2}>Check-In Verificator</Text>
                             <Text style={styles.teks2a}>COVID-19 vaccine certificate</Text>
                             <Text style={styles.teks2a}>verification in EU format</Text>
                         </View>
