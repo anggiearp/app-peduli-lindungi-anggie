@@ -93,8 +93,8 @@ export default HomeScreen = ({ navigation }) => {
                         onPress={() =>
                             Alert.alert("Mohon maaf", "Halaman ini sedang dalam proses pengembangan", [
                                 {
-                                    text: "ok",
-                                    onPress: () => console.log("ok ditekan"),
+                                    text: "OK",
+                                    onPress: () => console.log("tombol OK ditekan"),
                                 },
                             ])
                         }>
